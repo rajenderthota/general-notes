@@ -48,3 +48,56 @@ There are some third-party tools and add-ins that support Markdown rendering in 
    - Compose your email in Markdown syntax and then use the extension to convert it to HTML format within the email.
 
 By following any of these methods, you can ensure that your Markdown content either retains its formatting when converted to HTML or is sent as readable plain text in Outlook.
+
+
+
+To compose an HTML email in Outlook, you can follow these steps:
+
+### Option 1: Using Outlook’s Built-In HTML Editor
+1. **Open a New Email**:
+   - Launch Outlook and click on **New Email** to start composing a message.
+  
+2. **Switch to HTML Format**:
+   - By default, Outlook uses HTML format for new emails. To confirm this:
+     - Go to the **Format Text** tab.
+     - Make sure the **HTML** option is selected (you'll see this next to Plain Text and Rich Text).
+  
+3. **Compose Your Email**:
+   - You can use the built-in toolbar to format the text with colors, fonts, and styles like a basic HTML email.
+   - Add images, links, and tables from the toolbar for a more structured layout.
+   
+4. **Preview the Email**:
+   - You can preview the email in the same window to see how the formatting will appear to recipients.
+
+### Option 2: Manually Insert HTML Code (Outlook Desktop App)
+If you want to insert custom HTML code (for more complex layouts):
+
+1. **Create Your HTML Email Template**:
+   - Write your HTML code in any text editor (e.g., Notepad++, Sublime Text) and save it as an `.html` file.
+
+2. **Open the HTML in a Browser**:
+   - Open your `.html` file in a browser (like Chrome or Firefox) to render it.
+
+3. **Copy the Rendered Content**:
+   - Once the HTML email is rendered in the browser, **select all** content (Ctrl + A) and **copy** it (Ctrl + C).
+
+4. **Paste into Outlook**:
+   - Go to Outlook, open a new email, and **paste** (Ctrl + V) the HTML content into the email body. 
+   - Outlook will preserve the formatting and structure of the HTML content.
+
+### Option 3: Insert HTML Code (Outlook Web Version)
+1. **Open Outlook Web**:
+   - Go to [Outlook Web](https://outlook.office.com) and sign in.
+
+2. **Compose a New Email**:
+   - Click **New Message**.
+
+3. **Insert the HTML**:
+   - Use a browser extension like "HTML Inserter" (for Chrome or Edge), or manually use the **Inspect** tool to insert the HTML code.
+   - Paste the HTML content into the body of the email.
+
+### Option 4: Use a Third-Party Tool
+- Some services like Mailchimp, HubSpot, or Gmail’s "Insert HTML" feature can help with more advanced email campaigns.
+- Design your HTML email using those tools, export the HTML, and paste it into Outlook as in Option 2.
+
+These options should allow you to either format basic HTML emails or include more complex layouts designed elsewhere!
